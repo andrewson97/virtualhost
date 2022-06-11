@@ -73,7 +73,7 @@ if [ "$action" == 'create' ]
 			ServerAdmin $email
 			ServerName $domain
 			ServerAlias $domain
-			DocumentRoot $rootDir
+			DocumentRoot $rootDir/html/
 			<Directory />
 				AllowOverride All
 			</Directory>
